@@ -1,0 +1,151 @@
+@font-face {
+	font-family: "Electrolux-Sans";
+	src: url(../fonts/Electrolux-Sans.woff);
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Electrolux-Sans-Semibold";
+	src: url(../fonts/Electrolux-Sans-Semibold.woff);
+	font-weight: 600;
+	font-style: normal;
+}
+:root {
+	--title-f-f: "Electrolux-Sans-Semibold";
+	font-size: 1em;
+}
+.body {
+	color: rgb(44, 57, 84);
+	font-family: "Electrolux-Sans";
+}
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.main_top {
+	height: 72px;
+	display: flex;
+	align-items: center;
+}
+.logo {
+	margin-left: 24px;
+}
+.banner {
+	width: 100%;
+    max-width: 1200px;
+}
+.trust {
+	padding: 85px 0 40px;
+}
+.title {
+	font-family: var(--title-f-f);
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 20px;	
+	padding: 0 45px;
+}
+.text {
+	font-size: 20px;
+    max-width: 900px;
+	text-align: center;
+	margin: 0 auto;
+}
+.trust__items {
+	margin-top: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.trust__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex: 0 0 20%;
+	height: 350px;
+}
+.trust__item + .trust__item {
+	margin-left: 30px;
+}
+.trust__title {
+	width: 80%;
+	font-size: 18px;
+	font-family: var(--title-f-f);
+}
+.info__items {
+	background-color: rgb(243, 245, 247);
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.info__item {
+	flex: 0 0 290px;
+}
+.info__item + .info__item {
+	margin-left: 40px;
+}
+.info__bold {
+	font-weight: 700;
+}
+.options__items {
+	margin-top: 55px;
+	margin-bottom: 55px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.options__item {
+	display: flex;
+	align-items: center;
+}
+.options__info {
+	padding: 0 65px 0 120px;
+}
+.options__img {
+	width: 100%;
+	display: block;
+}
+.img__inner {
+	flex: 0 0 50%;
+}
+.options__info {
+	flex-basis: 50%;
+}
+.options__title {
+	font-family: var(--title-f-f);
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.options__text-bold {
+	font-weight: 700;
+}
+.options-list {
+	padding-left: 18px;
+}
+.formula__img {
+	width: 100%;
+	display: block;
+}
+.controle {
+	padding-top: 130px;
+	padding-bottom: 10px;
+}
+.controle__text {
+	margin-bottom: 90px;
+}
+.controle__img {
+	width: 100%;
+	display: block;
+}
+.license__inner {
+	height: 65px;
+	background-color: rgb(1, 30, 65);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.license__text {
+	margin-left: 25px;
+	vertical-align: middle;
+	color: rgb(255, 255, 255);
+}
